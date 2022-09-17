@@ -16,9 +16,9 @@ const int Soglia_verde = 50; // Soglia di distanza massima per led verde
 const int Soglia_gialla = 30; // Soglia di distanza massima per led gialla
 const int Soglia_rossa = 10; // Soglia di distanza massima per led rosso
 const int SUONO = 15 ;              // Pin connesso al buzzer attivo per allarme 
-String server = "http://192.168.1.3/antifurto/distanze.php"; //Indirizzo Server dove inviare dati
-const char* ssid = "SuperWiFi";   // Il nome della mia Wi-Fi
-const char* password = "ZazFseJ3KG";  // Password del mio Wi-Fi
+String server = "YOUR_SERVER"; //Indirizzo Server dove inviare dati
+const char* ssid = "YOUR_WIFI_NAME";   // Il nome della mia Wi-Fi
+const char* password = "YOUR_WIFI_PASSWORD";  // Password del mio Wi-Fi
 
 // Variabili :
 float durata, distanza_cm;
@@ -26,7 +26,7 @@ float durata, distanza_cm;
 
 //-----Settaggi Bot Telegram------//
 WiFiClientSecure client; // Oggetto necessario per connessione a Wi-Fi di Esp32
-#define BOTtoken "5393930766:AAHwZTbsBPNTY1j4V_HMjAOR4rQr0NkGToE"   // Mio Token Bot
+#define BOTtoken "YOUR_BOT_TOKEN"   // Mio Token Bot
 #define CHAT_ID "427223998" // ID che riconduce alla mia chat di Telegram
 UniversalTelegramBot bot(BOTtoken, client); //settaggio Bot 
 
