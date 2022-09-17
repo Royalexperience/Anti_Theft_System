@@ -27,7 +27,7 @@ float durata, distanza_cm;
 //-----Settaggi Bot Telegram------//
 WiFiClientSecure client; // Oggetto necessario per connessione a Wi-Fi di Esp32
 #define BOTtoken "YOUR_BOT_TOKEN"   // Mio Token Bot
-#define CHAT_ID "427223998" // ID che riconduce alla mia chat di Telegram
+#define CHAT_ID "YOUR_CHAT_ID" // ID che riconduce alla mia chat di Telegram
 UniversalTelegramBot bot(BOTtoken, client); //settaggio Bot 
 
 
