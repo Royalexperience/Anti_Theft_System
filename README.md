@@ -13,4 +13,4 @@ Anti Theft System it's a simple project made to explain the simple basics of the
 The working system it's really simple.
 The Ultra sonic device detects a movemeent in it's range , if the movements it's beetween / over a certain distance then it lights a led, if the movement it's very close a red led will be on and the buzzer will play.
 
-All the distance will be saved into a server , but the critical distance movements will trigger a bot telegram that will send you a message on your phone
+All the distance will be saved into a server , but the critical distance movements will trigger a telegram bot that will send you a message on your phone
